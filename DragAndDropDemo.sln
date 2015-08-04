@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DragAndDropDemo", "DrawAndDropTest\DragAndDropDemo.csproj", "{E5CF3EFB-1D4D-4457-9E8A-89FB77F4C16F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DrawAndDropTest.UITests", "DrawAndDropTest.UITests\DrawAndDropTest.UITests.csproj", "{5FDC0235-D52A-466A-9E35-66AC3E6BE7F8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5FDC0235-D52A-466A-9E35-66AC3E6BE7F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FDC0235-D52A-466A-9E35-66AC3E6BE7F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FDC0235-D52A-466A-9E35-66AC3E6BE7F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FDC0235-D52A-466A-9E35-66AC3E6BE7F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5CF3EFB-1D4D-4457-9E8A-89FB77F4C16F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5CF3EFB-1D4D-4457-9E8A-89FB77F4C16F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5CF3EFB-1D4D-4457-9E8A-89FB77F4C16F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5CF3EFB-1D4D-4457-9E8A-89FB77F4C16F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
