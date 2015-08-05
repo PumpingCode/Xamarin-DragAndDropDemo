@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DragAndDropDemo", "DrawAndDropTest\DragAndDropDemo.csproj", "{E5CF3EFB-1D4D-4457-9E8A-89FB77F4C16F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DragAndDropDemo", "DragAndDropDemo\DragAndDropDemo.csproj", "{E5CF3EFB-1D4D-4457-9E8A-89FB77F4C16F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DrawAndDropTest.UITests", "DrawAndDropTest.UITests\DrawAndDropTest.UITests.csproj", "{5FDC0235-D52A-466A-9E35-66AC3E6BE7F8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DragAndDropDemo.UITests", "DragAndDropDemo.UITests\DragAndDropDemo.UITests.csproj", "{5FDC0235-D52A-466A-9E35-66AC3E6BE7F8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

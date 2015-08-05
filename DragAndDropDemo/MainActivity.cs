@@ -28,7 +28,7 @@ namespace DragAndDropDemo
             var dropZone = FindViewById<FrameLayout>(Resource.Id.dropzone);
 
             // Attach event to drop zone
-            dropZone.Drag += Button_Drag;
+            dropZone.Drag += DropZone_Drag;
 
             base.OnCreate(bundle);
         }
@@ -49,9 +49,10 @@ namespace DragAndDropDemo
 
             // Start dragging and pass data
             ((sender) as Button).StartDrag(data, new View.DragShadowBuilder(((sender) as Button)), null, 0);
+            ((sender) as Button).StartDrag(data, new View.DragShadowBuilder(((sender) as Button)), null, 0);
         }
 
-        void Button_Drag (object sender, View.DragEventArgs e)
+        void DropZone_Drag (object sender, View.DragEventArgs e)
         {
             // React on different dragging events
             var evt = e.Event;

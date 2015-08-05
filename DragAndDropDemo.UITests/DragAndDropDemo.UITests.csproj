@@ -5,8 +5,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{5FDC0235-D52A-466A-9E35-66AC3E6BE7F8}</ProjectGuid>
     <OutputType>Library</OutputType>
-    <RootNamespace>DrawAndDropTest.UITests</RootNamespace>
-    <AssemblyName>DrawAndDropTest.UITests</AssemblyName>
+    <RootNamespace>DragAndDropDemo.UITests</RootNamespace>
+    <AssemblyName>DragAndDropDemo.UITests</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
@@ -37,7 +37,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\DrawAndDropTest\DragAndDropDemo.csproj">
+    <ProjectReference Include="..\DragAndDropDemo\DragAndDropDemo.csproj">
       <Project>{E5CF3EFB-1D4D-4457-9E8A-89FB77F4C16F}</Project>
       <Name>DragAndDropDemo</Name>
       <ReferenceOutputAssembly>False</ReferenceOutputAssembly>
