@@ -3,4 +3,4 @@ A simple sample project that shows how to add drag and drop functionality to a X
 
 ![demo]
 
-[demo]: https://raw.githubusercontent.com/Thepagedot/IRMGARD/master/Misc/IrmgardDemo.gif "App Demo"
+[demo]: https://raw.githubusercontent.com/Pumpingcode/Xamarin-DragAndDropDemo/master/Misc/XamarinDragAndDropDemo.gif "App Demo"
